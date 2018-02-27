@@ -1138,8 +1138,7 @@ footer {
 
 @media (max-width: 480px) {
     .banner-container {
-        background-size: contain;
-        margin-top: 67px;
+        display: none;
     }
 
     .navbar-inverse .navbar-nav > li > a {
