@@ -1031,6 +1031,14 @@ footer {
     #hnash {
         color: white;
     }
+    #hnash, #fwm h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #hnash h1 {
+        font-size: 1em !important;
+    }
+
     
     .linkButton {
         width: 80%;
