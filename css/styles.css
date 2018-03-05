@@ -1032,11 +1032,11 @@ footer {
         color: white;
     }
     #hnash, #fwm h3 {
-        font-size: 1.5em;
-        text-align: center;
+        font-size: 1.25em;
+        text-align: left;
     }
     #hnash h1 {
-        font-size: 1em !important;
+        font-size: 1.5em !important;
     }
 
     
