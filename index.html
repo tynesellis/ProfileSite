@@ -311,11 +311,13 @@
                     <div id="hnash">
                         <div class="folio-info">
                             <h1>HulduNashville</h1>
-                            <h3>How haunted is your Nashville neighborhood? HulduNashville will tell you.  Users of this web app will type in their address, which will then be sent to the Google Maps API for geocoding.  The returned data will then be transformed into a map marker in JavaScript.  That marker will be set at the center of the map and then compared to our relational database of Nashville Hauntings.  The closest entries will be used to make clickable markers and populated for the user to read.  Entries to the database will be made via an ASP.NET MVC.
-                            </h3>
-                            <h3>
-                                Coming Spring 2018
-                            </h3>
+                            <h3>This ASP.NET MVC project was built in the Visual Studio IDE and uses Google Maps API.  Client-side users enter an address and see a map containing interactive markers of Nashville Hauntings. The markers are made with data from tables in HulduNashville’s relational database.  Users with contributor roles add new marker entires with a form generated via Razor Template.  Locations are geocoded during creation of the report, and the lat/long object returned is stored to save on calls to the Google Maps API.</h3>
+                            <h5>
+                                <button class="linkButton"><a href="https://www.huldunashville.com/" target="_blank">Visit The Site</a></button>
+                            </h5>
+                            <h5>
+                                <button class="linkButton"><a href="https://github.com/tynesellis/BackEnd" target="_blank">See the Code on Github</a></button>
+                            </h5>
                         </div>
                     </div>
                 </article>
